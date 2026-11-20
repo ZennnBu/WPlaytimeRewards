@@ -1,0 +1,29 @@
+
+name: PlaytimeRewards
+version: 1.0.0
+main: com.zennbu.playtimerewards.PlaytimeRewards
+api-version: '26.2'
+author: Zennbu
+description: Advanced Playtime Rewards Plugin
+
+softdepend:
+  - Vault
+
+commands:
+  playtime:
+    description: Check your playtime
+    usage: /playtime
+    aliases:
+      - pt
+
+  playtimerewards:
+    description: Open Playtime Rewards GUI
+    usage: /playtimerewards
+    aliases:
+      - ptr
+
+permissions:
+  playtimerewards.admin:
+    description: PlaytimeRewards admin permission
+    default: op
+    
