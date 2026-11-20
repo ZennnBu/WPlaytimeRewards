@@ -1,0 +1,47 @@
+
+settings:
+  prefix: "&8[&dPlaytimeRewards&8] "
+  update-interval: 60
+  save-interval: 300
+
+gui:
+  title: "&8Playtime Rewards"
+  size: 27
+
+rewards:
+  10minutes:
+    display-name: "&a10 Minutes Reward"
+    slot: 10
+    required-minutes: 10
+    money: 100
+    message: "&aYou claimed 10 minutes reward!"
+
+  30minutes:
+    display-name: "&e30 Minutes Reward"
+    slot: 12
+    required-minutes: 30
+    money: 300
+    message: "&aYou claimed 30 minutes reward!"
+
+  1hour:
+    display-name: "&61 Hour Reward"
+    slot: 14
+    required-minutes: 60
+    money: 500
+    message: "&aYou claimed 1 hour reward!"
+
+  3hours:
+    display-name: "&b3 Hours Reward"
+    slot: 16
+    required-minutes: 180
+    money: 1500
+    message: "&aYou claimed 3 hours reward!"
+
+messages:
+  no-permission: "&cYou don't have permission!"
+  not-enough-time: "&cYou haven't played enough!"
+  already-claimed: "&cYou already claimed this reward!"
+  reload: "&aConfiguration reloaded!"
+  player-only: "&cOnly players can use this command!"
+  reward-claimed: "&aReward claimed successfully!"
+  
